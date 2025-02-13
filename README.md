@@ -62,19 +62,8 @@
 
 ````
 @echo off
-:: Exibe uma mensagem de boas-vindas
-echo Bem-vindo ao arquivo batch!
-
-:: Cria um diretório chamado "Backup"
-mkdir Backup
-
-:: Copia todos os arquivos do diretório atual para o diretório "Backup"
-xcopy *.* Backup\ /s /e
-
-:: Exibe a lista de arquivos e pastas no diretório "Backup"
-echo Arquivos copiados para o diretório Backup:
-dir Backup
-
-:: Pausa a execução para o usuário ver as informações antes de fechar
-pause
+echo basico
+mkdir basico
+cd basico
+echo basico > basico.txt
 ````
